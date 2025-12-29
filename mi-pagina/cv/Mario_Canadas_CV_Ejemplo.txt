@@ -1,0 +1,106 @@
+MARIO CAÑADAS
+Desarrollador Web Full Stack
+
+═══════════════════════════════════════
+
+📧 Email: mario.canadas@email.com
+📱 Teléfono: +34 123 456 789
+🌐 LinkedIn: linkedin.com/in/mario-canadas
+💼 GitHub: github.com/mario-canadas
+🌍 Portfolio: https://mario-canadas.com
+
+═══════════════════════════════════════
+
+PERFIL PROFESIONAL
+═══════════════════════════════════════
+Desarrollador web apasionado por transformar ideas en código.
+Especializado en desarrollo full stack con experiencia en 
+tecnologías modernas y metodologías ágiles.
+
+EXPERIENCIA LABORAL
+═══════════════════════════════════════
+🚀 Desarrollador Full Stack | 2022 - Presente
+   • Desarrollo de aplicaciones web responsivas
+   • Implementación de APIs REST
+   • Trabajo con bases de datos SQL y NoSQL
+   • Optimización de rendimiento y SEO
+
+💻 Desarrollador Frontend | 2021 - 2022
+   • Creación de interfaces de usuario atractivas
+   • Optimización de rendimiento web
+   • Colaboración en equipos multidisciplinarios
+   • Implementación de diseño responsivo
+
+HABILIDADES TÉCNICAS
+═══════════════════════════════════════
+Frontend:
+• HTML5, CSS3, JavaScript (ES6+)
+• React, Vue.js, Angular
+• SASS, Bootstrap, Tailwind CSS
+• TypeScript, Webpack, Vite
+
+Backend:
+• Node.js, Python, PHP
+• Express.js, Django, Laravel
+• API REST, GraphQL
+• Microservicios, Docker
+
+Bases de Datos:
+• MySQL, PostgreSQL, MongoDB
+• Redis, SQLite
+• Diseño de esquemas
+• Optimización de consultas
+
+Herramientas y DevOps:
+• Git, GitHub, GitLab
+• Docker, Kubernetes
+• AWS, Google Cloud
+• CI/CD, Jenkins
+• VS Code, Figma, Photoshop
+
+EDUCACIÓN
+═══════════════════════════════════════
+🎓 Grado en Ingeniería Informática
+   Universidad Tecnológica | 2018 - 2022
+   Especialización en Desarrollo de Software
+
+📚 Certificaciones:
+   • AWS Certified Developer Associate
+   • Google Analytics Certified
+   • Scrum Master Certified (PSM I)
+   • MongoDB Certified Developer
+
+PROYECTOS DESTACADOS
+═══════════════════════════════════════
+🌟 E-commerce Platform (2023)
+   Plataforma completa de comercio electrónico
+   Tech: React, Node.js, MongoDB, Stripe
+   
+🌟 Task Management App (2023)
+   Aplicación SPA para gestión de tareas
+   Tech: Vue.js, Firebase, PWA
+   
+🌟 Portfolio Website (2024)
+   Sitio web personal con animaciones avanzadas
+   Tech: HTML5, CSS3, JavaScript, GSAP
+
+🌟 Real-Time Chat App (2022)
+   Aplicación de chat en tiempo real
+   Tech: Socket.io, React, Node.js
+
+IDIOMAS
+═══════════════════════════════════════
+• Español: Nativo
+• Inglés: Avanzado (C1)
+• Francés: Intermedio (B2)
+
+INTERESES Y HOBBIES
+═══════════════════════════════════════
+• Desarrollo de aplicaciones móviles
+• Inteligencia artificial y machine learning
+• Fotografía digital
+• Viajes y culturas internacionales
+
+═══════════════════════════════════════
+CV actualizado: ${new Date().toLocaleDateString('es-ES')}
+Generado desde: mi-pagina-web.com
