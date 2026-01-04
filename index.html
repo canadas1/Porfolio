@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Cañadas - Full Stack Developer 🚀</title>
+    <meta name="description" content="Portfolio futurista de Mario Cañadas - Desarrollador Full Stack especializado en soluciones web modernas">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/futuristic.css">
+</head>
+<body class="dark-mode">
+    <!-- Cursor personalizado -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <!-- Partículas de fondo -->
+    <div id="particles-js"></div>
+    
+    <!-- ===== HEADER ===== -->
+    <header class="futuristic-header">
+        <nav class="nav-container">
+            <div class="logo-futuristic">
+                <img src="img/logo.png" alt="Mario Cañadas Logo" class="logo-image">
+                <div class="logo-glow"></div>
+            </div>
+            <ul class="nav-links-futuristic">
+                <li><a href="#inicio" class="nav-item"><span class="nav-number">01.</span> Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-item"><span class="nav-number">02.</span> Sobre Mí</a></li>
+                <li><a href="#skills" class="nav-item"><span class="nav-number">03.</span> Skills</a></li>
+                <li><a href="#proyectos" class="nav-item"><span class="nav-number">04.</span> Proyectos</a></li>
+                <li><a href="#contacto" class="nav-item"><span class="nav-number">05.</span> Contacto</a></li>
+            </ul>
+            <a href="cv/CV_MARIO_CAÑADAS.pdf" download="CV_Mario_Canadas.pdf" class="btn-cv-header btn-cv-improved" id="download-cv-btn" aria-label="Download CV">
+                <span class="btn-text">Download CV</span>
+                <span class="btn-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="7 10 12 15 17 10"/>
+                        <line x1="12" y1="15" x2="12" y2="3"/>
+                    </svg>
+                </span>
+            </a>
+            <button class="nav-toggle-futuristic" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== HERO SECTION ===== -->
+        <section id="inicio" class="hero-futuristic">
+            <div class="hero-bg-animation">
+                <div class="grid-lines"></div>
+                <div class="floating-elements">
+                    <span class="code-symbol">{</span>
+                    <span class="code-symbol">}</span>
+                    <span class="code-symbol">&lt;/&gt;</span>
+                    <span class="code-symbol">( )</span>
+                    <span class="code-symbol">[ ]</span>
+                </div>
+            </div>
+            
+            <div class="hero-content-futuristic">
+                <div>
+                    <div class="text-glitch-container">
+                        <p class="greeting-text" data-text="Hola, soy">Hola, soy</p>
+                        <h1 class="name-display glitch-effect" data-text="MARIO CAÑADAS">MARIO CAÑADAS</h1>
+                        <h2 class="role-display">
+                            <span class="typing-text">Full Stack Developer</span>
+                            <span class="cursor-blink">|</span>
+                        </h2>
+                    </div>
+                    
+                    <p class="hero-description">
+                        Transformo <span class="highlight-code">ideas</span> en experiencias digitales increíbles. 
+                        Especializado en crear aplicaciones web modernas, escalables y con un diseño espectacular.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="1">0</span>+
+                            <span class="stat-label">Años de Experiencia</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="15">0</span>+
+                            <span class="stat-label">Proyectos Completados</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="8">0</span>+
+                            <span class="stat-label">Tecnologías</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-cta">
+                        <a href="#proyectos" class="btn-futuristic btn-primary-future">
+                            <span class="btn-text">Ver Mi Trabajo</span>
+                            <span class="btn-icon">→</span>
+                            <div class="btn-glow"></div>
+                        </a>
+                        <a href="#contacto" class="btn-futuristic btn-secondary-future">
+                            <span class="btn-text">Contáctame</span>
+                            <span class="btn-icon">✉</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
+                            </div>
+                            <span class="terminal-title">mario@developer: ~</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p class="terminal-line"><span class="prompt">$</span> whoami</p>
+                            <p class="terminal-output">Full Stack Developer</p>
+                            <p class="terminal-line"><span class="prompt">$</span> skills --list</p>
+                            <p class="terminal-output typing">JavaScript, Angular, Node.js, Python...</p>
+                            <p class="terminal-line"><span class="prompt">$</span> status</p>
+                            <p class="terminal-output success">✓ Available for new projects</p>
+                            <p class="terminal-line"><span class="prompt">$</span> <span class="cursor-terminal">_</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll down</p>
+            </div>
+        </section>
+
+        <!-- ===== SOBRE MÍ ===== -->
+        <section id="sobre-mi" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">02.</span>
+                    <h2 class="section-title">Sobre Mí</h2>
+                    <div class="title-line"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p class="about-text-large">
+                            ¡Hola! Soy un <span class="highlight-text">Full Stack Developer</span> apasionado por crear 
+                            experiencias digitales que marquen la diferencia.
+                        </p>
+                        <p class="about-text">
+                            Mi enfoque combina código limpio, diseño intuitivo y las últimas tecnologías para construir 
+                            aplicaciones web modernas y escalables. Con experiencia en desarrollo frontend y backend, 
+                            me especializo en transformar ideas complejas en soluciones elegantes y funcionales.
+                        </p>
+                        <p class="about-text">
+                            Actualmente realizo mis prácticas en <strong>Inetum</strong>, trabajando en un proyecto colaborativo 
+                            para el <strong>Instituto Municipal de Informática de Barcelona</strong>. Desarrollo y mantengo aplicaciones 
+                            que utiliza la ciudadanía para tramitar solicitudes con el Ayuntamiento, usando tecnologías como 
+                            <strong>Java/Spring Boot</strong>, <strong>Angular</strong>, <strong>HTML5/CSS3</strong>, 
+                            y trabajando con metodologías ágiles <strong>Scrum</strong>.
+                        </p>
+                        
+                        <div class="tech-stack">
+                            <h3 class="tech-title">Tecnologías que domino:</h3>
+                            <div class="tech-grid">
+                                <div class="tech-card">
+                                    <div class="tech-icon">
+                                        <img src="img/javascript.png" alt="JavaScript" class="tech-logo">
+                                    </div>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="tech-card">
+                                    <div class="tech-icon">
+                                        <img src="img/angular.png" alt="Angular" class="tech-logo">
+                                    </div>
+                                    <span>Angular</span>
+                                </div>
+                                <div class="tech-card">
+                                    <div class="tech-icon">
+                                        <img src="img/html.png" alt="HTML5" class="tech-logo">
+                                    </div>
+                                    <span>HTML5</span>
+                                </div>
+                                <div class="tech-card">
+                                    <div class="tech-icon">
+                                        <img src="img/css.png" alt="CSS3" class="tech-logo">
+                                    </div>
+                                    <span>CSS3</span>
+                                </div>
+                                <div class="tech-card">
+                                    <div class="tech-icon">
+                                        <img src="img/mysql.png" alt="SQL" class="tech-logo">
+                                    </div>
+                                    <span>SQL</span>
+                                </div>
+                                <div class="tech-card">
+                                    <div class="tech-icon">
+                                        <img src="img/git.png" alt="Git" class="tech-logo">
+                                    </div>
+                                    <span>Git</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-visual">
+                        <div class="profile-card-3d">
+                            <div class="card-glow"></div>
+                            <div class="profile-image-container">
+                                <div class="image-frame">
+                                    <img src="img/mifoto.jpg" alt="Mario Cañadas" class="profile-img">
+                                    <div class="frame-corner tl"></div>
+                                    <div class="frame-corner tr"></div>
+                                    <div class="frame-corner bl"></div>
+                                    <div class="frame-corner br"></div>
+                                </div>
+                            </div>
+                            <div class="profile-info">
+                                <div class="info-line">
+                                    <span class="info-label">const</span>
+                                    <span class="info-value">developer = {</span>
+                                </div>
+                                <div class="info-line indent">
+                                    <span class="info-key">name:</span>
+                                    <span class="info-string">"Mario Cañadas"</span>,
+                                </div>
+                                <div class="info-line indent">
+                                    <span class="info-key">role:</span>
+                                    <span class="info-string">"Full Stack"</span>,
+                                </div>
+                                <div class="info-line indent">
+                                    <span class="info-key">passion:</span>
+                                    <span class="info-string">"Code & Design"</span>
+                                </div>
+                                <div class="info-line">
+                                    <span class="info-value">}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS ===== -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">03.</span>
+                    <h2 class="section-title">Habilidades & Expertise</h2>
+                    <div class="title-line"></div>
+                </div>
+                
+                <div class="skills-showcase">
+                    <!-- Frontend -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">🎨</div>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item-modern">
+                                <div class="skill-header">
+                                    <span class="skill-name">JavaScript / TypeScript</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="--skill-width: 95%">
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item-modern">
+                                <div class="skill-header">
+                                    <span class="skill-name">Angular</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="--skill-width: 90%">
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item-modern">
+                                <div class="skill-header">
+                                    <span class="skill-name">HTML5 & CSS3</span>
+                                    <span class="skill-percentage">98%</span>
+                                </div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="--skill-width: 98%">
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Backend -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">⚙️</div>
+                            <h3>Backend Development</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item-modern">
+                                <div class="skill-header">
+                                    <span class="skill-name">Node.js / Express</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="--skill-width: 85%">
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item-modern">
+                                <div class="skill-header">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="--skill-width: 80%">
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item-modern">
+                                <div class="skill-header">
+                                    <span class="skill-name">SQL / MongoDB</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="--skill-width: 85%">
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tools & Other -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">🛠️</div>
+                            <h3>Tools & DevOps</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item-modern">
+                                <div class="skill-header">
+                                    <span class="skill-name">Git & GitHub</span>
+                                    <span class="skill-percentage">92%</span>
+                                </div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="--skill-width: 92%">
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item-modern">
+                                <div class="skill-header">
+                                    <span class="skill-name">Docker</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="--skill-width: 75%">
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="skill-item-modern">
+                                <div class="skill-header">
+                                    <span class="skill-name">Agile / Scrum</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar" style="--skill-width: 88%">
+                                        <div class="skill-glow"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROYECTOS ===== -->
+        <section id="proyectos" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">04.</span>
+                    <h2 class="section-title">Proyectos Destacados</h2>
+                    <div class="title-line"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/infodeportes.png" alt="Infodeporte" onerror="this.src='img/logo.png'">
+                            <div class="project-overlay">
+                                <a href="https://github.com/canadas1/Infodeporte" target="_blank" rel="noopener" class="project-link">Ver Proyecto →</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">API Integration</span>
+                                <span class="tag">UX/UI</span>
+                                <span class="tag">Web</span>
+                            </div>
+                            <h3 class="project-title">Infodeporte</h3>
+                            <p class="project-description">
+                                Plataforma web orientada a mostrar información deportiva mediante la integración de una API externa, 
+                                con un enfoque centrado en la experiencia del usuario y la presentación clara de los datos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/POKEMON.jpg" alt="Juego Pokémon" onerror="this.src='img/logo.png'">
+                            <div class="project-overlay">
+                                <a href="https://github.com/canadas1/Juego-Pokemon" target="_blank" rel="noopener" class="project-link">Ver Proyecto →</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Game Dev</span>
+                                <span class="tag">UI/UX</span>
+                                <span class="tag">Accesibilidad</span>
+                            </div>
+                            <h3 class="project-title">Juego Pokémon</h3>
+                            <p class="project-description">
+                                Desarrollo grupal de un juego basado en el universo de Pokémon, con énfasis en la interacción 
+                                y la experiencia del usuario. Diseño de interfaces intuitivas y mecánicas centradas en usabilidad.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/asistencia.png" alt="Asistencia UCLM" onerror="this.src='img/logo.png'">
+                            <div class="project-overlay">
+                                <a href="https://github.com/RaulacaX/Isoft2-labBC-G02" target="_blank" rel="noopener" class="project-link">Ver Proyecto →</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span class="tag">Java/Maven</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Git</span>
+                            </div>
+                            <h3 class="project-title">Asistencia - Gestión UCLM</h3>
+                            <p class="project-description">
+                                Aplicación multiplataforma para la Universidad de Castilla-La Mancha que gestiona asistencia a eventos académicos. 
+                                Incluye control por QR/Bluetooth, certificados digitales, encuestas y reportes estadísticos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACTO ===== -->
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-number">05.</span>
+                    <h2 class="section-title">¿Trabajamos Juntos?</h2>
+                    <div class="title-line"></div>
+                </div>
+                
+                <div class="contact-content">
+                    <p class="contact-intro">
+                        Estoy siempre abierto a nuevos proyectos, colaboraciones y oportunidades interesantes. 
+                        Si tienes una idea o simplemente quieres conectar, ¡no dudes en contactarme!
+                    </p>
+                    
+                    <div class="contact-grid">
+                        <div class="contact-card">
+                            <div class="contact-icon">📧</div>
+                            <h3>Email</h3>
+                            <a href="mailto:mario.canadas@outlook.com" class="contact-link">mario.canadas@outlook.com</a>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">📸</div>
+                            <h3>Instagram</h3>
+                            <a href="https://instagram.com/_canadas" class="contact-link" target="_blank">instagram.com/_canadas</a>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">🐙</div>
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/canadas1" class="contact-link" target="_blank">github.com/canadas1</a>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-final">
+                        <a href="mailto:mario.canadas@outlook.com" class="btn-futuristic btn-primary-future btn-large">
+                            <span class="btn-text">Enviar Mensaje</span>
+                            <span class="btn-icon">✈️</span>
+                            <div class="btn-glow"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer-futuristic">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="logo-futuristic">
+                        <img src="img/logo.png" alt="Mario Cañadas Logo" class="logo-image">
+                    </div>
+                    <p>Diseñado & Desarrollado con ❤️ por Mario Cañadas</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="https://github.com/canadas1" target="_blank" rel="noopener" class="social-link">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.91 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.61-5.475 5.91.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                        </svg>
+                    </a>
+                
+                    <a href="https://instagram.com/_canadas" target="_blank" rel="noopener" class="social-link">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mario Cañadas. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/futuristic.js"></script>
+</body>
+</html>
